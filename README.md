@@ -19,7 +19,7 @@ plot_triangle(letters[1:19], ggshape_random_walk,
                        nrow = 5, user_scale = "3cm", gap_size = 0.2,
                        point = "top")
 ```
-![]("man/figures/random_triangle_up.png")
+![](man/figures/random_triangle_up.png)
 
 The plotting function is entirely user-specified, so it can be replaced with any other `ggplot` call
 
@@ -28,7 +28,7 @@ plot_triangle(letters[1:19], ggshape_lang_diffs,
                          nrow = 5, user_scale = "3cm", gap_size = 0.2,
                          point = "top")
 ```
-![]("man/figures/languages_triangle_up.png")
+![](man/figures/languages_triangle_up.png)
 
 The placement in the triangle is entirely procedural, so it works for any number of rows
 
@@ -37,11 +37,11 @@ plot_triangle(1:32, ggshape_rainbow_text,
                          nrow = 6, user_scale = "3cm", gap_size = 0.2,
                          point = "top")
 ```
-![]("man/figures/rainbow_nums_triangle_up_32.png")
+![](man/figures/rainbow_nums_triangle_up_32.png)
 
 Another pre-defined pattern of interest may be useful for text analysis
 
 ``` r
 plot_keyboard(ggshape_lang_diffs)
 ```
-![]("man/figures/languages.png")
+![](man/figures/languages.png)
