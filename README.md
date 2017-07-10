@@ -45,3 +45,8 @@ Another pre-defined pattern of interest may be useful for text analysis
 plot_keyboard(ggshape_lang_diffs)
 ```
 ![](man/figures/languages.png)
+
+``` r
+plot_keyboard(ggshape_english_usage)
+```
+![](man/figures/english.png)
