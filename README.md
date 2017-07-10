@@ -50,3 +50,8 @@ plot_keyboard(ggshape_lang_diffs)
 plot_keyboard(ggshape_english_usage)
 ```
 ![](man/figures/english.png)
+
+## Ideas
+
+- more shapes!
+- maps!
