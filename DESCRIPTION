@@ -1,0 +1,19 @@
+Package: ggshape
+Title: Arrange 'ggplot' facets in arbitrary shapes
+Version: 0.0.0.9000
+Authors@R: person("Jonathan", "Carroll", email = "rpkg@jcarroll.com.au", role = c("aut", "cre"))
+Description: Remove the gridwise constraints of 'facet_wrap' and place plots in arbitrary positions. Example shapes included.
+Depends: R (>= 3.4.0)
+License: GPL (>=2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Roxygen: list(markdown = TRUE)
+Imports: ggplot2,
+    grid,
+    readr,
+    stringr,
+    gridExtra,
+    viridisLite
+URL: https://github.com/jonocarroll/ggshape
+BugReports: https://github.com/jonocarroll/ggshape/issues
